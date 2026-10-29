@@ -1533,5 +1533,4 @@ def api_inventory():
 def api_donors():
     return jsonify(DONORS)
 
-if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+
